@@ -8,6 +8,7 @@ export const options = {
   ],
 };
 
+
 export default function () {
   const result = http.get('https://test-api.k6.io/public/crocodiles/');
   check(result, {
