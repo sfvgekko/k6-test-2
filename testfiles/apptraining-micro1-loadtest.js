@@ -12,9 +12,7 @@ export const options = {
     http_req_duration: ['p(95)<200'], // 95% of requests should be below 200ms
   }, 
   tags: {
-    app: 'apptraining',
-    component: 'micro1',
-    test: 'loadtest',
+    name: 'apptraining-micro1-loadtest',
   },  
 };
 
