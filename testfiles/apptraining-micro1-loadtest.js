@@ -14,7 +14,7 @@ export const options = {
   tags: {
     app: 'apptraining',
     component: 'micro1',
-    test: 'test1',
+    test: 'loadtest',
   },  
 };
 
