@@ -14,7 +14,7 @@ export const options = {
 export default function () {
   const employeeNumber = Math.floor(Math.random() * 5) + 1;
 
-  const result = http.get(`http://localhost:8085/api/employee-report/employee/${employeeNumber}/month/6/year/2023`, {
+  const result = http.get(`http://192.168.68.120:8085/api/employee-report/employee/${employeeNumber}/month/7/year/2023`, {
     tags: {
       test: 'apptraining-micro2-loadtest'
     }
