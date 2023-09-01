@@ -3,7 +3,7 @@ import { check } from 'k6';
 
 export const options = {
   stages: [
-    { target: 100, duration: '30s' },
+    { target: 100, duration: '35s' },
   ],
   thresholds: {
     http_req_failed: ['rate<0.01'], // http errors should be less than 1%
